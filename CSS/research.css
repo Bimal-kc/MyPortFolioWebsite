@@ -1,0 +1,279 @@
+*{
+	border: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: white;
+	background-color: black;
+}
+
+
+
+/* style for Navigation bar starts here.*/
+
+
+
+#nav ul{
+	list-style: none;
+	float: right;
+	margin-top: 40px;
+}
+
+
+
+#nav ul li{
+	display: inline;
+}
+
+
+
+#nav{
+	background-color: black;
+	padding-top: 10px;
+	border-bottom: 2px solid white;
+}
+
+
+
+#nav a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: white;
+	font-size: 40px;
+}
+
+
+
+#nav a:hover{
+	color: blue;
+}
+
+
+
+#nav a.active{
+	color: #D01C1FFF;
+	font-weight: bold;
+	background-color: #4B878BFF;
+}
+
+
+
+.logo{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+
+
+
+/* style for Navigation bar ends here.*/
+
+
+
+* style for research section starts here.*/
+#section1{
+	padding-top: 4px;
+}
+
+
+
+.section1-content h1{
+	border: 5px solid white;
+	background-color: red;
+	text-align: center;
+	font-size: 40px;
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* style for research section ends here.*/
+
+
+
+
+/* style for table section starts here.*/
+
+
+#section2{
+	padding:10px;
+	margin-top: 30px;
+	margin-bottom: 40px;	
+}
+
+
+
+.table{
+	width:100%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+
+
+.table tr,td{
+	padding-top: 50px;
+}
+
+
+
+.text{
+	font-size:20px;
+	padding-top:0px;
+	margin-top:0px;
+}
+
+
+
+.pic{
+	width:640px;
+	height: 400px;
+	margin-top:40px;
+	padding-bottom: 0px;
+}
+
+
+	
+.broder{
+	margin: 10px;
+	padding:5px;
+	border-bottom: 5px solid red;
+}
+
+#info p{
+	font-size: 25px;
+	width:90%;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+
+
+/* style for table section ends here.*/
+
+
+
+
+
+/* style for footer section starts here.*/
+
+
+
+#footer{
+	color: white;
+	height: 155px;
+	border: 3px solid white;
+	margin-top: 50px;
+}
+
+
+
+.footer-element{
+	display:flex;
+	justify-content:space-between;
+	height: 150px;
+}
+
+
+
+
+.footer-element ul{
+	list-style: none;
+}
+
+
+
+
+.footer-element a{
+	text-decoration: none;
+}
+
+
+
+#footer a:hover{
+	color: blue;
+}
+
+
+
+
+#footer i:hover{
+	color: blue;
+}
+
+
+
+
+.media{
+	padding-top:20px;
+	width:250px;
+	height: 150px;
+	font-size: 30px;
+}
+
+
+
+.media li{
+	display: inline;
+}
+
+
+
+.media a{
+	font-size: 50px;
+	margin:2px;
+}
+
+
+
+.media p{
+	
+	padding:0px;
+	margin:0px;
+}
+
+
+.media ul{
+	margin:5px;
+}
+
+
+
+.copyright{
+	width:650px;
+	font-size: 30px;
+	margin:auto;
+}
+
+
+
+.copyright h{
+	padding-left: 250px;
+}
+
+
+
+.copyright p{
+	margin:1px;
+}
+
+
+
+
+
+
+.link{
+	width:150px;
+	font-size: 26px;
+	
+}
+.link ul{
+	margin: 0px;
+	padding-left: 5px;
+}
+
+
+
+/* style for footer ends here.*/

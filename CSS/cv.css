@@ -1,0 +1,411 @@
+*{
+	border: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: white;
+	background-color: black;
+}
+
+
+
+/* style for Navigation bar starts here.*/
+
+
+#nav ul{
+	list-style: none;
+	float: right;
+	margin-top: 40px;
+}
+
+
+#nav ul li{
+	display: inline;
+}
+
+
+#nav{
+	background-color: black;
+	padding-top: 10px;
+	border-bottom: 2px solid white;
+}
+
+
+#nav a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: white;
+	font-size: 40px;
+}
+
+
+
+#nav a:hover{
+	color: blue;
+}
+
+
+
+#nav a.active{
+	color: #D01C1FFF;
+	font-weight: bold;
+	background-color: #4B878BFF;
+}
+
+
+
+.logo{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+
+
+/* style for Navigation bar ends here.*/
+
+
+
+
+
+
+/* style for section1 starts here.*/
+
+
+
+#section1{
+	padding-top: 4px;
+}
+
+
+
+.section1-content h1{
+	border: 5px solid white;
+	background-color: red;
+	text-align: center;
+	font-size: 40px;
+	width: 400px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+
+
+/* style for section1 ends here.*/
+
+
+
+
+
+
+/* style for section2 starts here.*/
+
+
+
+#section2{
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:2px solid white;
+}
+
+
+
+.section2-content{
+	display:flex;
+	justify-content:start-flex;
+}
+
+
+
+.section2-content ul{
+	list-style:circle;
+}
+
+
+
+
+/* style for left side of cv in section2 starts here.*/
+
+.left{	
+	flex:50%;
+	padding-left: 50px;
+	padding-top: 50px;
+	border: 5px solid white;
+}
+
+
+
+#photo{
+	width:60%;
+	margin: auto;
+	height: 200px;
+	padding-right: 50px;
+}
+
+
+
+.info h1{
+	font-size: 40px;
+	width:150px;
+	margin: auto;
+	margin-top:10px;
+}
+
+
+
+.info h2{
+	font-size: 32px;
+	width: 250px;
+	margin-top:10px;
+	margin-left:50px;
+}
+
+
+
+.info h3{
+	padding:10px;
+	padding-left: 15px;
+	background-color:yellow;
+	border:2px solid white;
+	font-size:30px;
+	font-weight:500;
+	margin: 10px;
+}
+
+
+
+.info ul{
+	font-size: 27px;
+	width: 350px;
+	margin: auto;
+}
+
+
+
+/* style for left side of cv in section2 ends here.*/
+
+
+
+
+
+
+/* style for right side of cv in section2 starts here.*/
+
+
+
+.right{
+	flex:50%;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+
+
+.other-info h3{
+	border:2px solid white;
+	padding:10px;
+	font-size:30px;
+	font-weight:500;
+	text-align: center;
+	margin:5px;
+}
+
+
+
+
+.other-info p{
+	font-size: 27px;
+}
+
+
+
+.table{
+	border:2px solid blue;
+	padding: 1px;
+	width:100%;
+	height: 200px;
+	font-size:25px;
+	text-align:center;
+}
+
+
+
+.table th,td,tr{
+	border:2px solid blue;
+	padding:5px;
+}
+
+
+
+.other-info ul{
+	font-size: 27px;
+	margin-left: 30px;
+}
+
+
+
+.hobbies ul {
+	list-style: none;
+}
+
+
+
+.hobbies ul li{
+	width:120px;
+}
+
+
+
+.hobbies{
+	display: flex;
+}
+
+
+
+.hobbies i{
+	font-size: 60px;
+	margin-bottom:0px;
+	margin-left: 30px;
+}
+
+
+
+.hobbies p{
+	font-size: 22px;
+	text-align: center;
+	margin-top:2px;
+}
+
+
+	
+/* style for right side of cv in section2 ends here.*/
+
+
+
+
+
+/* style for section2 ends here.*/
+
+
+
+
+
+
+/* style for footer section starts here.*/
+
+
+
+#footer{
+	color: white;
+	height: 155px;
+	border: 3px solid white;
+}
+
+
+
+.footer-element{
+	display:flex;
+	justify-content:space-between;
+	height: 150px;
+}
+
+
+
+
+.footer-element ul{
+	list-style: none;
+}
+
+
+
+
+.footer-element a{
+	text-decoration: none;
+}
+
+
+
+#footer a:hover{
+	color: blue;
+}
+
+
+
+
+#footer i:hover{
+	color: blue;
+}
+
+
+
+
+.media{
+	padding-top:20px;
+	width:250px;
+	height: 150px;
+	font-size: 30px;
+}
+
+
+
+.media li{
+	display: inline;
+}
+
+
+
+.media a{
+	font-size: 50px;
+	margin:2px;
+}
+
+
+
+.media p{
+	
+	padding:0px;
+	margin:0px;
+}
+
+
+.media ul{
+	margin:5px;
+}
+
+
+
+.copyright{
+	width:650px;
+	font-size: 30px;
+	margin:auto;
+}
+
+
+
+.copyright h{
+	padding-left: 250px;
+}
+
+
+
+.copyright p{
+	margin:1px;
+}
+
+
+
+.link{
+	width:150px;
+	font-size: 26px;
+	
+}
+.link ul{
+	margin: 0px;
+	padding-left: 5px;
+}
+
+
+
+/* style for footer ends here.*/
+

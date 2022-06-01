@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<!--head section of my homepage's html starts here-->
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="Description"  content="This is HomePage of my portfolio"/>
+		<meta name="author"  content="Bimal Khatri"/>
+		<title>Home page </title>
+		<link rel="stylesheet" href="CSS/homePage.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<script src="JavaScript/home.js"> </script>
+		<script src="JavaScript/photos.js"> </script>
+		<style>
+			.container{width: 95%;margin: auto;overflow: hidden;}      <!--This is the inline CSS for container class-->
+		</style>
+
+		<style>
+			#scroll{ font-size:25px;                
+				 font-weight:bold;
+				 border-bottom:3px solid blue;
+				 cursor:pointer;
+				 }
+		</style>  
+
+		<script>     
+			function scrollPage() {                        
+ 			 document.body.scrollBy(0, 420);               
+			 document.documentElement.scrollBy(0, 420);    
+			 }
+		</script>
+	</head>
+
+
+
+<!--head section of my homepage's html ends here-->
+
+
+<!--body section of my homepage's html starts here-->
+
+	<body>
+		<!--nav section of my homepage's html starts here-->
+
+		<nav id="nav">
+			<div class="container">
+				<a href="homePage.html"><img src="image/logo.png" alt="logo showing BirB" class="logo"/></a>
+				<ul>
+					<li><a href="homePage.html" class="active"> Home </a></li>
+					<li><a href="cv.html"> CV </a></li>
+					<li><a href="blog.html"> Blog </a></li>
+					<li><a href="research.html"> Research </a></li>
+					<li><a href="contact.html"> Contact </a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--nav section of my homepage's html ends here-->
+		
+		<!--section1 of my homepage's html starts here-->		
+		
+		<section id="section1">
+			<div class="container">
+				<div class="section1-container">
+					<div class="introduction1">
+						<p1>Hello, It's me </p1>
+						<h1>Bimal</h1>
+						<p2 >I am a student who study IT and likes tech related stuffs. I like to enjoy and capture every moments of my life so I do photography by passion though I'm not a professional. </p2>
+						<button onclick="scrollPage()" id="scroll"><a> Scroll for more</a></button>
+					</div>
+					<div class="image1">
+						<img src="image/me.jpg" alt=" me folding his hand" id="myImage">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--section1 of my homepage's html ends here-->
+
+		<!--section2 of my homepage's html starts here-->
+
+		<section id="section2">
+			<div class="container">
+				<div class="section2-container">
+					<div class="introductionTopic">
+						<p1>More aboout me:</p1>
+					</div>
+					<div class="introduction2">
+						<p2>I am not an extraordinary student but believes in working hard. According to science, nothing is impossible. I also believe in this statement and Nothing is impossible for me too. Besides, this I like to make sketches and I'm a freelancer, traveler and cyclist.</p2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--section2 of my homepage's html ends here-->
+
+		<!--section3 of my homepage's html starts here-->
+
+		<section id="section3">
+			<div class="container">
+				<div class="section3-container">
+					<div class=introduction3>
+						<p1>Some of my sketches that I recently made.</p1>
+					</div>
+					<div class="image2">
+						<img id="img2">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--section3 of my homepage's html ends here-->
+
+
+		<!--footer of my homepage's html starts here-->
+
+
+		<footer id="footer">
+			<div class="container">
+				<div class="footer-element">
+					<div class="media">
+						<p> Get in touch</p>
+						<ul>
+							<li><a href="https://www.facebook.com/bimal.kshetri.311/" target="_blank"> <i class="bi bi-facebook"></i> </a></li>
+							<li><a href="https://www.instagram.com/bimal.311/" target="_blank"> <i class="bi bi-instagram"></i> </a></li>
+							<li><a href="https://twitter.com/bimalkh80249679" target="_blank"> <i class="bi bi-twitter"></i> </a></li>
+						</ul>
+					</div>
+
+					<div class="copyright">
+						<h>Bimal khatri<h>
+						<p>Copyright &copy; 2021 Bimal khatri - All right reserved<p>
+					</div>
+
+
+					<div class="link">
+						<ul>
+							<li><a href="homePage.html"> Home </a></li>
+							<li><a href="cv.html"> CV </a></li>
+							<li><a href="blog.html"> Blog </a></li>
+							<li><a href="research.html"> Research </a></li>
+							<li><a href="contact.html"> Contact </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--footer of my home page's html ends here-->
+		
+
+	</body>
+
+<!--body section of my home page's html ends here-->
+
+</html>
